@@ -6,7 +6,9 @@ let div = document.getElementById("header");
     For example, a function can be called when an event occurs, like when the user clicks a button.
  */
 function meFun(){
-    document.getElementById("demo").innerHTML = "This is a simple Hello unit.";
+    text = document.getElementById("demo").innerHTML;
+    let newText = text.replace("hero","Hello");
+    document.getElementById("demo").innerHTML =newText; //"This is a simple Hello unit.";
 }
 /**JavaScript Display Possibilities
 JavaScript can "display" data in different ways:
