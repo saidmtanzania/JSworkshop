@@ -14,8 +14,8 @@ JavaScript can "display" data in different ways:
     Writing into the HTML output using document.write().
     Writing into an alert box, using window.alert().
     Writing into the browser console, using console.log()
- */
-
+ 
+*/
     document.getElementById("dev").innerHTML = 5+1;
     //Using document.write() after an HTML document is loaded, will delete all existing HTML:
     document.write("take a bow");
@@ -23,3 +23,5 @@ JavaScript can "display" data in different ways:
     window.alert("Hello JavaScript");
     //window.print() to print the whole page
     window.print();
+    //console.log()
+    console.log("Hello JavaScript")
