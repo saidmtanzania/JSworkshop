@@ -69,3 +69,14 @@ JavaScript can "display" data in different ways:
     // document.getElementById("pop").innerHTML = q;
     let v = Carz.reg.call(Carz);
     document.getElementById("Vz").innerHTML = v;
+
+    //Printing MyList in Array
+    let header = ["This is My List this Year"];
+    let list = ["Learning","coding","sleeping","attending event","New Technology"];
+    let html = `<h2>${header}</h2><ul>`;
+    for(const x of list){
+        html+=`<li>${x}</li>`;
+    }
+    html+=`</ul>`;
+    document.getElementById("newDemo").innerHTML = html;
+    
